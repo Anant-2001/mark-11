@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+body{
+  font-family: 'Lexend', sans-serif;
+  margin: 0px;
+  font-size: 130%;
+  background-color: var(--primary-color);
+  
+}
+:root{
+  --primary-color: rgb(140, 19, 221);
+}
+.container{
+  max-width: 500px;
+  margin: auto;
+  min-height: 80vh;
+  
+}
+h1{
+  text-align: center;
+  margin: 3rem 0rem;
+}
+#dob{
+  border-radius: 5px;
+  width: 60%;
+  padding: 0.3rem 0.5rem;
+  margin: 1rem 0rem;
+  font-size: larger;
+  border: 1px solid black;
+  outline:white;
+}
+#lucky-number{
+  border-radius: 5px;
+  width: 60%;
+  padding: 0.3rem 0.5rem;
+  margin: 1rem 0rem;
+  font-size: larger;
+  border: 1px solid black;
+  outline: white;
+}
+label{
+  font-size: larger;
+  margin: 1.5rem 0rem;
+}
+#check-button{
+  cursor: pointer;
+  font-size: 90%;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  border: 2px solid black;
+  outline: white;
+  margin: 1rem 0rem;
+}
+.footer{
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-size: smaller;
+}
+.list-non-bullet{
+  list-style-type: none;
+}
+.list-item-inline{
+  display: inline;
+}
+.link{
+  text-decoration: none;
+  color: black;
+  margin-top: 1rem;
+  margin-right: 0rem;
+  padding: 0.7rem;
+}
+
+li{
+  /* background-image: url(/images/github-logo.png);
+  background-repeat: no-repeat;
+  background-size: 70% 70%;
+  min-height: 25vh;
+  background-color:transparent; */
+}
